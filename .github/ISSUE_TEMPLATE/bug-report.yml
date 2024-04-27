@@ -48,7 +48,7 @@ body:
   id: "yml-7"
   attributes:
     label: 遇到BUG的启动器版本
-    placeholder: "
+    placeholder: "例：Alpha 0.0.1
     "
   validations:
     required: true
