@@ -14,21 +14,21 @@ body:
 - type: textarea
   id: "yml-2"
   attributes:
-    label: 遇到的问题
+    label: 你遇到的问题
     placeholder: "-（请在这里回答）-"
   validations:
     required: true
 - type: textarea
   id: "yml-3"
   attributes:
-    label: 期望的结果
+    label: 你期望你那么操作会发生什么？
     placeholder: "-（请在这里回答）-"
   validations:
     required: true
 - type: textarea
   id: "yml-4"
   attributes:
-    label: 如何重现此问题？
+    label: 如何重现此BUG？
     placeholder: "-（请在这里回答）-"
   validations:
     required: true
@@ -36,25 +36,24 @@ body:
   id: "yml-5"
   attributes:
     label: 可能造成问题的原因
-    placeholder: "-（若不知道，请填写 “不知道”）-"
+    placeholder: "-（若不知道，请填写“？”）-"
 - type: textarea
   id: "yml-6"
   attributes:
     label: 系统环境 
-    placeholder: "例如：Windows 7 64位 SP1、Windows 10 专业版 64位 1909、Windows 10 家庭版 32位 2002"
+    placeholder: "例：Windows 7、Windows 11等"
   validations:
     required: true
 - type: textarea
   id: "yml-7"
   attributes:
-    label: 启动器版本
-    placeholder: "前往 “BakaXL本体设置 - 关于” 查看当前所使用的BakaXL版本和构建编号
-    
-    例如：BakaXL 公众版 3.0.1.2 Build.2020.05.26.2135 / BakaXL Insider Preview 3.0.1.5 鹦鹉通道 Build.2020.5.30.2343"
+    label: 遇到BUG的启动器版本
+    placeholder: "
+    "
   validations:
     required: true
 - type: textarea
   id: "yml-8"
   attributes:
-    label: 附注
+    label: 备注
     placeholder: "-（请在这里回答）-"
