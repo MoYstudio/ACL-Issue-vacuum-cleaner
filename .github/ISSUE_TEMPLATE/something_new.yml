@@ -9,6 +9,7 @@ body:
     description: "请逐个检查下列项目，并勾选确认。"
     options:
     - label: "我确认在Issues列表中并无其他人已经建议过相似的功能"
+    - label: "我已认真阅读《ACLissue库提交新标签规范》，并愿意遵守其中的规则"
       required: true
 - type: textarea
   id: "yml-2"
@@ -27,12 +28,5 @@ body:
 - type: textarea
   id: "yml-4"
   attributes:
-    label: 这个功能对于你来说是继续使用BakaXL的理由吗？
-    placeholder: "-（请在这里回答）-"
-  validations:
-    required: true
-- type: textarea
-  id: "yml-5"
-  attributes:
-    label: 补充信息
+    label: 备注
     placeholder: "-（请在这里回答）-"
