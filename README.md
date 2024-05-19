@@ -7,6 +7,9 @@ ACL启动器问题提交库
 - 负责人：
 <br>zirran
 
+-相关链接
+[MoY工作室issue库提交规范条例(2024)](https://moystudio.github.io/issue_library_specification.io/)
+
 - 加入我们/商业合作
 <br>发送邮件至：ZirranYa@outlook.com
 <br>并抄送至：16774996@qq.com
