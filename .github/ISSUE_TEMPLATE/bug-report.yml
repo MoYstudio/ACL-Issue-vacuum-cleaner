@@ -1,10 +1,10 @@
   name: BUG提交
   description: 看起来，你遇到了什么BUG，我们非常抱歉
-labels: ["BUG"]
-body:
+  labels: ["BUG"]
+  body:
 -type: checkboxes
-id: "yml-1"
-attributes:
+  id: "yml-1"
+  attributes:
   label: "检查项"
   description: "请逐个检查下列项目，并勾选确认。"
   options:
