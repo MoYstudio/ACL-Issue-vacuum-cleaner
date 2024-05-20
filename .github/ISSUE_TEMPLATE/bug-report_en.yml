@@ -30,7 +30,7 @@ body:
   attributes:
     label: How to reproduce this bug?
     placeholder: "-(Please answer here)-"
-  validations.
+  validations:
     required: true
 - type: textarea
   id: "yml-5"
