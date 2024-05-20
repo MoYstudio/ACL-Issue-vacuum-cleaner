@@ -1,59 +1,59 @@
-name: BUG提交
-description: 看起来，你遇到了什么BUG，我们非常抱歉
+name: BUG REPORT
+description: Looks like you've encountered some bugs, and we're very sorry!
 labels: ["BUG"  ]
 body:
 - type: checkboxes
   id: "yml-1"
   attributes:
-    label: "检查项"
-    description: "请逐个检查下列项目，并勾选确认。"
+    label: "Check the item"
+    description: "Please check each of the following items and check the box to confirm."
     options:
-    - label: "我已认真阅读《MoY工作室issue库提交规范条例(2024)》(详情见https://moystudio.github.io/issue_library_specification.io/)，并愿意遵守其中的规则"
-    - label: "我确认在Issues列表中并无其他人已经提出过与此问题相同或相似的问题"
+    - label: "I have read it carefully"MoY Studio Issue Repository Submission Specification (2024)" (see https://moystudio.github.io/issue_library_specification.io/ for details) and are willing to abide by the rules therein"
+    - label: "I confirm that no one else in the Issues list has raised the same or similar issue as this one"
       required: true
 - type: textarea
   id: "yml-2"
   attributes:
-    label: 你遇到的问题
-    placeholder: "-（请在这里回答）-"
+    label: The problem you're experiencing
+    placeholder: "-(Please answer here)-"
   validations:
     required: true
 - type: textarea
   id: "yml-3"
   attributes:
-    label: 你期望你那么操作会发生什么？
-    placeholder: "-（请在这里回答）-"
+    label: What do you expect to happen if you do that?
+    placeholder: "-(Please answer here)-"
   validations:
     required: true
 - type: textarea
   id: "yml-4"
   attributes:
-    label: 如何重现此BUG？
-    placeholder: "-（请在这里回答）-"
+    label: HOW DO I REPRODUCE THIS BUG?
+    placeholder: "-(Please answer here)-"
   validations:
     required: true
 - type: textarea
   id: "yml-5"
   attributes:
-    label: 可能造成问题的原因
-    placeholder: "-（若不知道，请填写“？”）-"
+    label: What could be causing the problem
+    placeholder: "-(If you don't know, please fill in "None")-"
 - type: textarea
   id: "yml-6"
   attributes:
-    label: 系统环境 
-    placeholder: "例：Windows 7、Windows 11等"
+    label: System environment
+    placeholder: "eg：Windows 7、Windows 11..."
   validations:
     required: true
 - type: textarea
   id: "yml-7"
   attributes:
-    label: 遇到BUG的启动器版本
-    placeholder: "例：Alpha 0.0.1
+    label: THE LAUNCHER VERSION THAT ENCOUNTERED THE BUG
+    placeholder: "eg：Alpha 0.0.1...
     "
   validations:
     required: true
 - type: textarea
   id: "yml-8"
   attributes:
-    label: 备注
-    placeholder: "-（请在这里回答）-"
+    label: remark
+    placeholder: "-(Please answer here, if not, please fill in "None")-"
