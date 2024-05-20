@@ -1,1 +1,61 @@
+name: Bug Submission
+description: It looks like you've encountered some kind of bug and we're very sorry about it
+labels: ["Bug" ]
+body: ["BUG" ]
+- type: checkboxes
+  id: "yml-1"
+  attributes.
+    label: "Checkboxes"
+    description: "Please check the following items one by one and check the box to confirm."
+    options.
+    - label: "I have carefully read the MoY Studio Issue Library Submission Specification Regulations (2024) (see https://moystudio.github.io/issue_library_specification.io/ for details) and am willing to abide by the rules therein"
+    - label: "I confirm that no one else in the Issues list has already submitted an issue that is the same or similar to this one"
+      required: true
+- type: textarea
+  id: "yml-2"
+  label: "I confirm that no one else in the Issues list has already asked this question or a similar question.
+    label: The problem you're having
+    placeholder: "-(Please answer here)-"
+  validations.
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes: label: What do you expect to happen when you do that?
+    label: What do you expect to happen when you do that?
+    placeholder: "-(please answer here)-"
+  validations: required: true
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes.
+    label: How to reproduce this bug?
+    placeholder: "-(Please answer here)-"
+  validations.
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes.
+    label: Possible cause of the problem
+    placeholder: "- (if you don't know, put "?") -"
+- type: textarea
+  id: "yml-6"
+  attributes.
+    label: System environment 
+    placeholder: "Example: Windows 7, Windows 11, etc."
+  validations: required: true
+    required: true
+- type: textarea
+  id: "yml-7"
+  attributes.
+    label: Version of the launcher where the bug was encountered
+    placeholder: "Example: Alpha 0.0.1
+    "
+  validations.
+    required: true
+- type: textarea
+  id: "yml-8"
+  attributes.
+    label: Remarks
+    placeholder: "-(Please answer here)-"
 
+Translated with DeepL.com (free version)
