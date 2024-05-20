@@ -5,7 +5,7 @@ body:
 - type: checkboxes
   id: "yml-1"
   attributes:
-    label: "检查项"
+    -label: "检查项"
     description: "请逐个检查下列项目，并勾选确认。"
     options:
     - label: "我已认真阅读《MoY工作室issue库提交规范条例(2024)》（https://moystudio.github.io/issue_library_specification.io/） 并愿意遵守其中的规则"
