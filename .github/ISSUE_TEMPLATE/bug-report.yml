@@ -1,8 +1,8 @@
-  name: BUG提交
-  description: 看起来，你遇到了什么BUG，我们非常抱歉
-  labels: ["BUG"]
-  body:
--type: checkboxes
+name: BUG提交
+description: 如果你觉得这个东西好像不对劲，就提交给我们
+labels: ["BUG"  ]
+body:
+- type: checkboxes
   id: "yml-1"
   attributes:
   label: "检查项"
