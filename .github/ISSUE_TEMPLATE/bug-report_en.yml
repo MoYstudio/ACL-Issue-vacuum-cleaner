@@ -11,7 +11,7 @@ body:
     - label: "I have carefully read the MoY Studio Issue Library Submission Specification Regulations (2024) (see https://moystudio.github.io/issue_library_specification.io/ for details) and am willing to abide by the rules therein"
     - label: "I confirm that no one else in the Issues list has already submitted an issue that is the same or similar to this one"
       required: true
-- type: textarea
+- type: textarea 
   id: "yml-2"
   label: "I confirm that no one else in the Issues list has already asked this question or a similar question.
     label: The problem you're having
