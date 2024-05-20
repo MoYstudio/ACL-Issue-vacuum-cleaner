@@ -36,7 +36,7 @@ body:
   id: "yml-5"
   attributes:
     label: 可能造成问题的原因
-    placeholder: "-（若不知道，请填写“？”）-"
+    placeholder: "-（若不知道，请填写“无”）-"
 - type: textarea
   id: "yml-6"
   attributes:
@@ -56,4 +56,4 @@ body:
   id: "yml-8"
   attributes:
     label: 备注
-    placeholder: "-（请在这里回答）-"
+    placeholder: "-（请在这里回答，若没有请填写“无”）-"
