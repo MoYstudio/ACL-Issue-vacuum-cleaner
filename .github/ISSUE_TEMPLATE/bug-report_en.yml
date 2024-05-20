@@ -1,7 +1,7 @@
 name: Bug Submission
 description: It looks like you've encountered some kind of bug and we're very sorry about it
 labels: ["Bug" ]
-body: ["BUG" ]
+body:
 - type: checkboxes
   id: "yml-1"
   attributes.
