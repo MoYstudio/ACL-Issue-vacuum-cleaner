@@ -3,7 +3,7 @@ description: It looks like you've encountered some kind of bug and we're very so
 labels: ["Bug" ]
 body:
 - type: checkboxes
-  id:"yml-1"
+  id: "yml-1"
   attributes:
     label: "Checkboxes"
     description: "Please check the following items one by one and check the box to confirm."
