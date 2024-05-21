@@ -20,7 +20,7 @@ ACL initiator issue submission library
 - What is this for?
 <br>Used to receive all sorts of strange questions/opinions/ideas
 
--Head:
+- Head:
 <br>zirran
 
 - Related Links
