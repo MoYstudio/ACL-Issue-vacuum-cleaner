@@ -1,6 +1,6 @@
 name: New feature proposals
 description: Give the launcher some new ideas
-labels: ["新功能提案"]
+labels: ["新功能提案/New feature proposals"]
 body:
 - type: checkboxes
   id: "yml-1"
