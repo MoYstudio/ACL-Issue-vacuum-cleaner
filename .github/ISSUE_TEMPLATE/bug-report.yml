@@ -1,6 +1,6 @@
 name: BUG提交
 description: 如果你觉得这个东西好像不对劲，就提交给我们
-labels: ["BUG"  ]
+labels: ["BUG"]
 body:
 - type: checkboxes
   id: "yml-1"
