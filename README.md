@@ -24,7 +24,7 @@ ACL initiator issue submission library
 <br>zirran
 
 - Related Links
-<br>[MoY Studio Issue Repository Submission Specification (2024)] (https://moystudio.github.io/issue_library_specification.io/)
+<br>[MoY Studio Issue Repository Submission Specification (2024)](https://moystudio.github.io/issue_library_specification.io/)
 
 - Join us/business partners
 <br>Send an email to: ZirranYa@outlook.com
